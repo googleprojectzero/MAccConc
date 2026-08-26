@@ -1,0 +1,11 @@
+kcov-terminal
+pagemap-test
+slub_stat
+vmlinux
+kcov-gui
+*.o
+imgui.ini
+*.d
+*.so
+kcov-autorace
+kcov-vsock-client
