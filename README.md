@@ -2,6 +2,8 @@
 This is tooling for exploring Linux kernel race conditions and for general
 kernel debugging.
 
+See also the announcement blog post <https://projectzero.google/2026/09/maccconc-race-condition.html>.
+
 There are currently three tools:
 
 1. A GUI for viewing KCOV traces of Linux kernel execution and memory
@@ -21,7 +23,8 @@ either a build from HEAD, rather than from a release branch, or a build at versi
 Such builds are, for example, available from https://apt.llvm.org/ .
 If you are a googler, see http://go/maccconc-kernel-build-notes .
 
-Obtain a kernel tree with the required patches from TODO.
+Obtain a kernel tree with the required patches from
+https://github.com/thejh/linux , branch kcov-tracing-full.
 
 When configuring and building the kernel, set make variables
 `CC` / `LLVM` / `LLVM_PREFIX` as documented at
